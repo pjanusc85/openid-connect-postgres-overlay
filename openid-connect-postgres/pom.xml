@@ -1,14 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <artifactId>truste-openid-connect-overlay</artifactId>
-    <groupId>com.truste</groupId>
-    <version>1.0.1-SNAPSHOT</version>
+    <artifactId>pjanusc85-openid-connect-overlay</artifactId>
+    <groupId>com.pjanusc85</groupId>
+    <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>truste-openid-connect-webapp</artifactId>
+  <artifactId>pjanusc85-openid-connect-webapp</artifactId>
   <packaging>war</packaging>
   <build>
-      <finalName>truste-openid-connect-server</finalName>
+      <finalName>pjanusc85-openid-connect-server</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -41,15 +41,15 @@
             <version>2.2</version>
             <configuration>
 
-                <url>http://aaa.intranet.truste-labs.com/manager/text</url>
+                <url>http://aaa.intranet.pjanusc85-labs.com/manager/text</url>
                 <path>/aaa-provider-webapp</path>
                 <server>TomcatServer</server>
 
-                <!--<url>http://aaa-provider-qa.truste-svc.net/manager/text</url>-->
+                <!--<url>http://aaa-provider-qa.pjanusc85-svc.net/manager/text</url>-->
                 <!--<path>/aaa-provider-webapp</path>-->
                 <!--<server>QATomcatServer</server>-->
 
-                <!--<url>http://aaa.truste-svc.net/manager/text</url>-->
+                <!--<url>http://aaa.pjanusc85-svc.net/manager/text</url>-->
                 <!--<path>/aaa-provider-webapp</path>-->
                 <!--<server>TomcatServer</server>-->
 
